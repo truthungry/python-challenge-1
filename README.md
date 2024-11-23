@@ -1,8 +1,11 @@
-#                        Module 2 Challenge: Python Challenge 1
+# Module 2 Challenge: Python Challenge 1
 
-### Design an interactive ordering system for a food truck menu. 
-##  This program outlines the steps to manage and validate user inputs, then store the customer's orders and prints a formattedd receipt.
- and prints a receipt with the total price of all items ordered.
+## This assignment had us design an interactive ordering system for a food truck menu. 
+####  This program outlines the steps to manage and validate user inputs, then store the customer's orders and 
+#### prints a formatted receipt with the total price of all items ordered.
+
+
+
     Fix:
         * Enumerate line 89, the selected_category list - Format
         * Same list, when user chooses an item with a sub-menu, like Tea > Green...It is this sub-menu that has the pricing attached, but when I type anything but 'tea' I get an error, so I need to check that validation...but choosing tea, doesn't give the user the choice to choose from the sub-menu, so it just prints 'Tea and asks how many...
@@ -49,4 +52,8 @@ Print the line for the receipt using the format in Step 8.
 Upon exiting the for loop, use list comprehension and sum() to calculate the total price of the order and display it to the customer. Make sure you multiply the price by the quantity in your list comprehension.
 
 Hints and Considerations
-Consider what you've learned so far. You’ve learned how to store content in variables, lists, and dictionaries. You’ve learned how to iterate through data structures, and you’ve learned how to debug along the way. Using all that you've learned, try to break down your tasks into discrete mini-objectives.
+Consider what you've learned so far. 
+You’ve learned how to store content in variables, lists, and dictionaries. 
+You’ve learned how to iterate through data structures, and 
+you’ve learned how to debug along the way. 
+Using all that you've learned, try to break down your tasks into discrete mini-objectives.
