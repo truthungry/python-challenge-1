@@ -1,17 +1,14 @@
-# python-challenge-1
-Module 2 Challenge: Python
-Notes to go back and correct the initial printing of the menu to only print only the menu caategories
+#                        Module 2 Challenge: Python Challenge 1
 
-# Design an interactive ordering system from a food truck menu
-
-# The starter code provided includes the code to:
-
-# 1. Print the menu for the customer
-# 2. Allow customers to place an order, which includes:
-#    a) Store the customer's order 
-#    b) Print the receipt with the total price of all items ordered
-
-After the sub-menu is printed, prompt the customer to enter their selection from the menu, saving it as a variable menu_selection.
+### Design an interactive ordering system for a food truck menu. 
+##  This program outlines the steps to manage and validate user inputs, then store the customer's orders and prints a formattedd receipt.
+ and prints a receipt with the total price of all items ordered.
+    Fix:
+        * Enumerate line 89, the selected_category list - Format
+        * Same list, when user chooses an item with a sub-menu, like Tea > Green...It is this sub-menu that has the pricing attached, but when I type anything but 'tea' I get an error, so I need to check that validation...but choosing tea, doesn't give the user the choice to choose from the sub-menu, so it just prints 'Tea and asks how many...
+        * When user has finished ordering, and trying to print the receipt, it gives a typeError related to item_name, a string, needs to be an integer
+        * 
+Done - After the sub-menu is printed, prompt the customer to enter their selection from the menu, saving it as a variable menu_selection.
 
 Use input validation to check if the customer input menu_selection is a number. If it isn't, print an error message. If it is a number, convert the input to an integer and use it to check if it is in the keys of menu_items.
 
@@ -53,47 +50,3 @@ Upon exiting the for loop, use list comprehension and sum() to calculate the tot
 
 Hints and Considerations
 Consider what you've learned so far. You’ve learned how to store content in variables, lists, and dictionaries. You’ve learned how to iterate through data structures, and you’ve learned how to debug along the way. Using all that you've learned, try to break down your tasks into discrete mini-objectives.
-
-If you're struggling with how to start, consider writing out the steps of the process using pseudocode.
-
-Always commit your work and back it up with pushes to GitHub or GitLab. You don't want to lose hours of your hard work! Also make sure that your repo has a detailed README.md file.
-
-Requirements
-Order System (54 points)
-An order list is initialized. (2 points)
-
-User is prompted for their menu item selection and it's saved as a variable menu_selection. (4 points)
-
-User input menu_selection is checked as a number and an error is printed if it is not. (4 points)
-
-menu_selection is converted to an integer. (2 points)
-
-An if-else statement is used to check if menu_selection is in the menu_items keys, and an error is printed if it isn't. (4 points)
-
-The item name of the customer's selection is extracted from the menu_items dictionary and stored as a variable. (4 points)
-
-The customer is prompted for a quantity of their item selection and the value defaults to 1 if the customer does not input a valid number. (10 points)
-
-The customer's selected item, price, and quantity are appended to the order list in dictionary format. (10 points)
-
-A match-case statement is used to check if the customer would like to keep ordering, and performs the correct actions for y, n, and default cases. (10 points)
-
-The match-case statement converts the use input to lowercase or uppercase before checking the case. (4 points)
-
-Order Receipt (46 points)
-A for loop is used to loop through the order list. (10 points)
-
-The value of each key in each order dictionary is saved as a variable. (6 points)
-
-The number of formatting spaces are correctly calculated. (6 points)
-
-Space strings are created using string multiplication. (4 points)
-
-The customer's order is printed with the item name, price, and quantity. (6 points)
-
-List comprehension is used to calculate the total price of the order. (10 points)
-
-The total price of the order is printed to the screen. (4 points)
-
-Grading
-This assignment will be evaluated against the requirements and assigned a grade according to the following table:
