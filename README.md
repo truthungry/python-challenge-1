@@ -1,6 +1,6 @@
 
 # Donshe's Food Truck
-![Truck Logo]("C:\Users\Sheila\Desktop\AI_Bootcamp\Challenges\module_3_challenge\python-challenge-1\foodtruck_logo.png")
+![Truck Logo]("foodtruck_logo.png")
 
 ### Module 2 Challenge: Python Challenge 
 #### This assignment involved designing an interactive ordering system for a food truck. 
