@@ -1,6 +1,8 @@
 
-# Donshe's Food Truck
-![Truck Logo](foodtruck_logo.png)
+# <h1 align = "center" > Donshe's Food Truck </h1>
+<p align = "center" >
+    <img src = "foodtruck_logo.png" alt = "Donshe's Logo" width = "200"/>
+    </p>
 
 ### Module 2 Challenge: Python Challenge 
 #### This assignment involved designing an interactive ordering system for a food truck. 
