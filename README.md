@@ -1,6 +1,6 @@
 
 # Donshe's Food Truck
-![Truck Logo]("foodtruck_logo.png")
+![Truck Logo](foodtruck_logo.png)
 
 ### Module 2 Challenge: Python Challenge 
 #### This assignment involved designing an interactive ordering system for a food truck. 
