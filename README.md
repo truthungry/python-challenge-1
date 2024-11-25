@@ -7,7 +7,6 @@
 
 This assignment involved designing an interactive ordering system for a food truck, which I chose to name Donshe's Food Truck. This program outlines the steps to manage and validate user inputs, then store the customer's orders, and finally a formatted receipt with the total price of all items ordered is printed for each customer. 
 
-
 Having imported the menu dictionary from another file, I have adapted the menu for Donshe's Food Truck.
 The take_order function  begins by greeting the customer, printing the sub-menu, and the customer is prompted to enter the item number from the menu. 
 This selection is saved as a variable called menu_selection.
@@ -24,7 +23,5 @@ The customer is then asked if they wish to order from another category?
     If no, a receipt is printed showing an itemized list of items ordered, each item's price, and the Grand total. 
 Item name                 | Price  | Quantity
 --------------------------|--------|----------
-Apple                     | $0.49  | 1
-Tea - Thai iced           | $3.99  | 2
-Fried banana              | $4.49  | 3
-                                                                                                                             
+
+Although I struggled greatly with syntax, I enjoyed the challenge and depth this required. 
