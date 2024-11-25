@@ -1,13 +1,11 @@
 
 # <h1 align = "center" > Donshe's Food Truck </h1>
+### <h1 align = "center" > Module 2 Challenge: Python Challenge </h1>
 <p align = "center" >
     <img src = "foodtruck_logo.png" alt = "Donshe's Logo" width = "200"/>
     </p>
 
-### Module 2 Challenge: Python Challenge 
-#### This assignment involved designing an interactive ordering system for a food truck. 
-#### This program outlines the steps to manage and validate user inputs, then store the customer's orders  
-#### and prints a formatted receipt with the total price of all items ordered.
+This assignment involved designing an interactive ordering system for a food truck, which I chose to name Donshe's Food Truck. This program outlines the steps to manage and validate user inputs, then store the customer's orders, and finally a formatted receipt with the total price of all items ordered is printed for each customer. 
 
 
 Having imported the menu dictionary from another file, I have adapted the menu for Donshe's Food Truck.
