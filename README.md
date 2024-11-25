@@ -1,6 +1,6 @@
 
-# <h1 align = "center" > Donshe's Food Truck </h1>
-### <h1 align = "center" > Module 2 Challenge: Python Challenge </h1>
+<h1 align = "center" > Donshe's Food Truck </h1>
+<h3 align = "center" > Module 2 Challenge: Python Challenge </h3>
 <p align = "center" >
     <img src = "foodtruck_logo.png" alt = "Donshe's Logo" width = "200"/>
     </p>
